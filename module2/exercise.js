@@ -17,12 +17,22 @@ if (nomer % 2 === 0){
     console.log("Odd Number")
 }
 //Selesai 
-
+*/
 
 // Soal Nomer 3
-let prime = 7
+let prime = 20
+let sisa = 0
+
+for (i = 1; i <= prime; i++){
+    if (prime % i === 0 ){
+        sisa++
+    }
+
+}
+console.log(sisa === 2 ? "prima" : "not prima")
 
 
+/*
 // Soal nomer 4 
 const n = 5
 let result = 0
@@ -33,7 +43,7 @@ for (let i = 1; i <= n; i++) {
 }
 console.log(result)
 //console.log(sum*(sum+1)/2)
-*/
+
 // Soal Nomor 5 faktorial
 const n = 4
 let sum = 1
@@ -43,3 +53,4 @@ for(let i = n; i > 0; i--) {
 sum = sum * i
 }
 console.log(sum)
+*/
